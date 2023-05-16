@@ -4,7 +4,7 @@
 
 Esto se hace en el archivo `Tree.py` exactamente en la funcion `generate_random_tree`, esta funcion recibe el numero de nodos.
 
-Para generar un arbol de la siguiente manera: `[1,2,3,null,2]` se debe ejecutar la funcion `generate` en el archivo `Tree.py`, esto retornara un arbol de 1 o 30 nodos.
+Para generar un arbol de la siguiente manera: `[1,2,3,null,2]` se debe ejecutar la funcion `generate` en el archivo `Tree.py`, esto retornara un arbol de 1 a 30 nodos aleatoriamente.
 
 
 ## Generar Output
