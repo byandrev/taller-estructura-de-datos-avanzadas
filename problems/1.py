@@ -38,4 +38,7 @@ for i in range(n):
     tree_node = deserialize(tree)
     obj = CBTInsert(tree_node)
     obj.insert(val)
-    print(level_order_traversal(obj.get_root()))
+
+    tree_ans_list = []
+    level_order_traversal(obj.get_root(), tree_ans_list)
+    print(tree_ans_list)

@@ -23,28 +23,25 @@ def deserialize(string):
     return root
 
 
-def level_order_traversal(root):
-    if not root:
-        return []
+def level_order_traversal(root, ans):
+    height = get_height(root)
+    for level in range(1, height + 1):
+        print_level(root, level, ans)
 
-    result = []
-    queue = deque([root])
+def get_height(node):
+    if node is None:
+        return 0
+    else:
+        height_left = get_height(node.left)
+        height_right = get_height(node.right)
+        return max(height_left, height_right) + 1
 
-    while queue:
-        level_size = len(queue)
-
-        for _ in range(level_size):
-            node = queue.popleft()
-            result.append(node.val)
-
-            if node.left:
-                queue.append(node.left)
-            else:
-                result.append("null")
-
-            if node.right:
-                queue.append(node.right)
-            else:
-                result.append("null")
-
-    return result
+def print_level(node, level, ans):
+    if node is None:
+        ans.append("null")
+        return
+    if level == 1:
+        ans.append(node.val)
+    elif level > 1:
+        print_level(node.left, level - 1, ans)
+        print_level(node.right, level - 1, ans)

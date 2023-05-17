@@ -45,5 +45,7 @@ def print_tree(root, val="val", left="left", right="right"):
         return lines, n + m + u, max(p, q) + 2, n + u // 2
 
     lines, *_ = display(root, val, left, right)
+    ans = ""
     for line in lines:
-        print(line)
+        ans+=line+"\n"
+    return ans

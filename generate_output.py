@@ -33,15 +33,15 @@ def get_command(language, file, is_windows):
 """
 def execute(language, filename, input, is_windows=False):
     if (language=="cpp"):
-        check_output(f"c++ ./problems/{filename} -o ./dist/{filename}", shell=True)
+        check_output(f"c++ {getcwd()}/problems/{filename}.cpp -o {getcwd()}/problems/{filename}", shell=True)
 
     name_file = ""
 
     if language=="cpp":
         if is_windows:
-            name_file = ".\problems\{filename}.exe"
+            name_file = f"{getcwd()}\problems\{filename}.exe"
         else:
-            name_file = "./problems/{filename}"
+            name_file = f"{getcwd()}/problems/{filename}"
     elif language=="java":
         name_file = f"java ./problems/{filename}.java"
     else:
