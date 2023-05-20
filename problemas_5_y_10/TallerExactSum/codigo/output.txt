@@ -1,0 +1,50 @@
+Peter should buy books whose prices are 10 and 12.
+
+Peter should buy books whose prices are 2 and 6.
+
+No se encontró una solución.
+
+No se encontró una solución.
+
+Peter should buy books whose prices are 3 and 3.
+
+Peter should buy books whose prices are 10 and 10.
+
+No se encontró una solución.
+
+No se encontró una solución.
+
+Peter should buy books whose prices are 7 and 10.
+
+No se encontró una solución.
+
+Peter should buy books whose prices are 5 and 5.
+
+Peter should buy books whose prices are 11 and 12.
+
+No se encontró una solución.
+
+No se encontró una solución.
+
+No se encontró una solución.
+
+No se encontró una solución.
+
+Peter should buy books whose prices are 13 and 67.
+
+No se encontró una solución.
+
+No se encontró una solución.
+
+Peter should buy books whose prices are 2 and 2.
+
+Peter should buy books whose prices are 15 and 33.
+
+No se encontró una solución.
+
+No se encontró una solución.
+
+No se encontró una solución.
+
+Peter should buy books whose prices are 9 and 17.
+
