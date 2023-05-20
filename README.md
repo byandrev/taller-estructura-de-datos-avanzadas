@@ -1,4 +1,11 @@
-# Taller 2 
+# Taller 2
+
+## Ejercicios 5 y 10
+[https://github.com/MauricioStudentMode/TallerCloneTree](https://github.com/MauricioStudentMode/TallerCloneTree)
+
+## Ejercicios 6 y 8
+[https://github.com/jcbotello20/E-D-A-An-lisis-de-Algoritmos-](https://github.com/jcbotello20/E-D-A-An-lisis-de-Algoritmos-)
+
 
 ## Generación de los arboles aleatorios
 
