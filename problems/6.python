@@ -1,0 +1,33 @@
+from collections import defaultdict
+class Solution:
+    def validPath(self, n, edges, start, end):
+        graph = defaultdict(list)
+
+
+        # Construir el grafo utilizando la lista de aristas
+        for u, v in edges:
+            graph[u].append(v)
+            graph[v].append(u)
+
+
+        visited = set()
+
+
+        def dfs(node):
+            if node == end:
+                return True
+
+
+            visited.add(node)
+
+
+            for neighbor in graph[node]:
+                if neighbor not in visited:
+                    if dfs(neighbor):
+                        return True
+
+
+            return False
+
+
+        return dfs(start)
